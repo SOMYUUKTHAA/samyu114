@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #define MAX_SIZE 1000
 void main()
@@ -20,8 +19,7 @@ void main()
     }
   for(i=0;i<n;i++)
   {
-   if(K[i]%3==0)
- printf("ODD NUMBER IN K:\t%d",K[i]);
+   if(K[i]%2!=0)
+    printf("ODD NUMBER IN K:\t%d",K[i]);
 }
-      
-  }
+}
